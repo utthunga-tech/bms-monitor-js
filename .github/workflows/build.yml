@@ -37,6 +37,6 @@ jobs:
         run:  sudo npm install jasmine-node -g
 
       # Runs a set of commands using the runners shell
-      - name: Run Tests
-        run: sudo npm run test
+      - name: Run Checker.js
+        run: sudo npm start
          
